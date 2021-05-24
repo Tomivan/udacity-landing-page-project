@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    padding: 1em;
+}
+h1{
+    color: blue;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    color: #fff;
+    width: 30%;
+}
+li{
+    margin-right: 15%;
+}
+.background{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    margin-left: 0;
+    height: 80vh;
+}
+.background-text{
+    margin: -20% 0 20% 0;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.section{
+    padding: 1em;
+    height: 40vh;
+    font-size: 18px;
+}
