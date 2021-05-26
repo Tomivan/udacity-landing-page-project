@@ -12,16 +12,16 @@
     <nav class="navigation">
         <h1>Project Landing Page</h1>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact Us</li>
+            <li onClick="welcome()">Home</li>
+            <li onClick="about()">About</li>
+            <li onClick="contactUs()">Contact Us</li>
         </ul>
     </nav>
     <div>
         <img src="assests/images/background.jpg" alt="A picture of sunset" class="background">
         <p class="background-text">Dynamic Landing Page</p>
     </div>
-    <section class="section">
+    <section class="section" id="welcome">
         <h2>Welcome</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
@@ -35,7 +35,7 @@
             At augue eget arcu dictum varius duis. Ut aliquam purus sit amet luctus venenatis. Volutpat sed 
             cras ornare arcu dui.</p>
     </section>
-    <section class="section">
+    <section class="section" id="about">
         <h2>About</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
@@ -49,7 +49,7 @@
             At augue eget arcu dictum varius duis. Ut aliquam purus sit amet luctus venenatis. Volutpat sed 
             cras ornare arcu dui.</p>
     </section>
-    <section class="section">
+    <section class="section" id="contact-us">
         <h2>Contact us</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
@@ -63,5 +63,6 @@
             At augue eget arcu dictum varius duis. Ut aliquam purus sit amet luctus venenatis. Volutpat sed 
             cras ornare arcu dui. </p>
     </section>
+    <button class="top" onClick="goToTop()">Go to Top</button>
 </body>
 </html>
